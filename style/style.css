@@ -195,3 +195,43 @@ nav ul li a{
     font-size: 20px;
     color: #727272;
 }
+/*---------------
+   Sponspors
+-------------- */
+.our-sponspors{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-sponspors h2{
+    font-size: 45px;
+    color: #131313;
+}
+.our-sponspors p {
+    font-size: 16px;
+    color: #727272;
+}
+.sponspors{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    margin-bottom: 130px;
+}
+.sponspor{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+/*--------------
+   Footer Style 
+----------------- */
+footer{
+    width: 1440px;
+    height: 100px;
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    margin: 0 240px 150px 240px;
+}
+footer p {
+    font-size: 20px;
+    color: #424242;
+    padding: 38px 410px;
+}
