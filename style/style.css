@@ -1,0 +1,112 @@
+/*-----------------
+  Common Style or Utilities
+---------------- */
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* --------------
+   Header Style 
+---------------- */
+.header{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    margin-left: 230px;
+    font-weight: 700;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 240px;
+}
+nav ul li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/* --------------
+  Banner Style 
+---------------- */
+.banner{
+    margin: 115px 530px 50px 530px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    align-items: center;
+}
+.banner-info{
+    text-align: center;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+}
+.banner-detail{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.btn-primary{
+    height: 64px;
+    border-radius: 10px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    padding: 18px 35px;
+}
+.banner-thumbnail img{
+    width: 1420px;
+    height: 700px;
+    padding: 0px 241px 50px 239px;
+}
+/*
+------------------
+ Main section style 
+--------------------- */
+.container1{
+    width: 1420px;
+    padding: 130px 241px 130px 239px;
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+.architects-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.architects-img img{
+    width: 342px;
+    height: 342px;
+}
+.container1-title{
+    font-size: 45px;
+    color: #727272;;
+}
+.container1-title .of-our{
+    font-weight: 700px;
+    color: black;
+    font-weight: 800px;
+}
+.container1-title .features{
+    color: #FF900E;
+
+}
+.description{
+    font-size: 16px;
+    color: #727272;
+}
