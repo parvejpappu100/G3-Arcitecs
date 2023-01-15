@@ -223,6 +223,30 @@ nav ul li a{
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
+/*---------------------
+     Extra Section 
+------------------- */
+.extra{
+    margin: 0 250px 0 250px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 144, 14, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 100px;
+}
+.brand , .our-commit , .we-know{
+    text-align: center;
+    font-size: 45px;
+}
+.we-know{
+    color: #963947;
+}
+.brand{
+    color: #7f7f7f;
+}
+.our-commit{
+    color: #7f7f7f;
+}
 /*--------------
    Footer Style 
 ----------------- */
