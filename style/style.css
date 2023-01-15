@@ -125,8 +125,16 @@ nav ul li a{
     padding: 0 240px 0px 240px;
     gap: 150px;
 }
+.rectangle {
+    height: 106px;
+    width: 5px;
+    background-color: #FF900E;
+    position: absolute;
+    margin-top: 39px;
+  }
 .container2-title{
     font-size: 45px;
+    margin-left: 20px;
 }
 .container2-detail{
     color: #727272;
